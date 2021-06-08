@@ -472,7 +472,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop 1is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-btn btn" type="button" data-modal-close>
           <svg class="closed-icon">
@@ -502,7 +502,7 @@
               <use href="./images/icon.svg#email-modal"></use>
             </svg>
           </label>
-          <label class="form-modal-item checkbox">
+          <label class="form-modal-item commit">
             <span class="form-modal-label">Комментарий</span>
             <textarea
               class="modal-textarea"
@@ -510,10 +510,15 @@
               placeholder="Введите текст"
             ></textarea>
           </label>
-          <label class="">
-            <input class="t" type="checkbox" name="checkbox" />
-            <span class=""
-              >Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a>
+          <label class="form-modal-checkbox">
+            <input
+              class="form-input-checkbox"
+              type="checkbox"
+              name="checkbox"
+            />
+            <span class="checkbox-text"
+              >Соглашаюсь с рассылкой и принимаю
+              <a href="" class="checkbox-link">Условия договора</a>
             </span>
           </label>
           <button class="form-modal-btn" type="submit">Отправить</button>
