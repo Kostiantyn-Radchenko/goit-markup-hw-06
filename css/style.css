@@ -831,7 +831,6 @@ body {
   align-items: center;
   justify-content: space-between;
   margin-left: 32px;
-  word-spacing: 2px;
   color: var(--accent-color);
 }
 
