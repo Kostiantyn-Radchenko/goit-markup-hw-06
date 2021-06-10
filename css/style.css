@@ -719,12 +719,16 @@ body {
   border: 1px solid var(--modal-btn-color);
   background-color: var(--white-text-color);
 }
+.modal-btn:hover .closed-icon {
+  fill: var(--active-color);
+}
 .closed-icon {
   position: absolute;
   width: 11px;
   height: 11px;
   color: var(--logo-primary-color);
 }
+
 /* modal content */
 .form-modal {
   display: flex;
