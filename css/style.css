@@ -857,4 +857,5 @@ body {
   letter-spacing: 0.06em;
   color: var(--white-text-color);
   background-color: var(--active-color);
+  cursor: pointer;
 }
